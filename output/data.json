@@ -1,0 +1,179 @@
+{
+  "parameter": {
+    "lebar_proses": 800,
+    "persentil_titik": 99.5,
+    "ambang_tepi": 200,
+    "persentil_sapuan": [
+      99.0,
+      99.5,
+      99.9,
+      99.99
+    ],
+    "ambang_sapuan": [
+      100,
+      150,
+      200,
+      250
+    ]
+  },
+  "citra": [
+    {
+      "kunci": "burj",
+      "judul": "Burj Khalifa",
+      "berkas": "img/Burj_Khalifa.avif",
+      "ukuran_asli": [
+        250,
+        438
+      ],
+      "ukuran_proses": [
+        250,
+        438
+      ],
+      "selisih_konvolusi": 0.0,
+      "metrik": {
+        "rerata_intensitas": 109.04,
+        "simpangan_baku_intensitas": 24.95,
+        "varians_laplacian": 1328.2,
+        "rerata_respons_titik": 33.71,
+        "maks_respons_titik": 1105.0,
+        "ambang_titik": 512.0,
+        "jumlah_titik": 552,
+        "kepadatan_titik_persen": 0.504,
+        "rerata_magnitudo": 27.07,
+        "maks_magnitudo": 583.3,
+        "jumlah_tepi": 4202,
+        "kepadatan_tepi_persen": 3.837,
+        "rasio_energi_gx_gy": 1.528,
+        "waktu_titik_ms": 7.68,
+        "waktu_prewitt_ms": 12.39
+      },
+      "sapuan_titik": [
+        {
+          "persentil": 99.0,
+          "ambang": 437.0,
+          "jumlah_titik": 1099,
+          "kepadatan_persen": 1.004
+        },
+        {
+          "persentil": 99.5,
+          "ambang": 512.0,
+          "jumlah_titik": 552,
+          "kepadatan_persen": 0.504
+        },
+        {
+          "persentil": 99.9,
+          "ambang": 664.0,
+          "jumlah_titik": 111,
+          "kepadatan_persen": 0.101
+        },
+        {
+          "persentil": 99.99,
+          "ambang": 868.3,
+          "jumlah_titik": 11,
+          "kepadatan_persen": 0.01
+        }
+      ],
+      "sapuan_prewitt": [
+        {
+          "ambang": 100,
+          "jumlah_tepi": 11362,
+          "kepadatan_persen": 10.376
+        },
+        {
+          "ambang": 150,
+          "jumlah_tepi": 7067,
+          "kepadatan_persen": 6.454
+        },
+        {
+          "ambang": 200,
+          "jumlah_tepi": 4202,
+          "kepadatan_persen": 3.837
+        },
+        {
+          "ambang": 250,
+          "jumlah_tepi": 2284,
+          "kepadatan_persen": 2.086
+        }
+      ]
+    },
+    {
+      "kunci": "route66",
+      "judul": "Jalan Route 66",
+      "berkas": "img/D11_Williams_Route_66_1.avif",
+      "ukuran_asli": [
+        800,
+        533
+      ],
+      "ukuran_proses": [
+        800,
+        533
+      ],
+      "selisih_konvolusi": 0.0,
+      "metrik": {
+        "rerata_intensitas": 134.74,
+        "simpangan_baku_intensitas": 59.29,
+        "varians_laplacian": 778.6,
+        "rerata_respons_titik": 37.82,
+        "maks_respons_titik": 828.0,
+        "ambang_titik": 247.0,
+        "jumlah_titik": 2148,
+        "kepadatan_titik_persen": 0.504,
+        "rerata_magnitudo": 32.01,
+        "maks_magnitudo": 433.0,
+        "jumlah_tepi": 5910,
+        "kepadatan_tepi_persen": 1.386,
+        "rasio_energi_gx_gy": 0.807,
+        "waktu_titik_ms": 35.21,
+        "waktu_prewitt_ms": 67.95
+      },
+      "sapuan_titik": [
+        {
+          "persentil": 99.0,
+          "ambang": 212.0,
+          "jumlah_titik": 4314,
+          "kepadatan_persen": 1.012
+        },
+        {
+          "persentil": 99.5,
+          "ambang": 247.0,
+          "jumlah_titik": 2148,
+          "kepadatan_persen": 0.504
+        },
+        {
+          "persentil": 99.9,
+          "ambang": 343.0,
+          "jumlah_titik": 428,
+          "kepadatan_persen": 0.1
+        },
+        {
+          "persentil": 99.99,
+          "ambang": 663.1,
+          "jumlah_titik": 43,
+          "kepadatan_persen": 0.01
+        }
+      ],
+      "sapuan_prewitt": [
+        {
+          "ambang": 100,
+          "jumlah_tepi": 24838,
+          "kepadatan_persen": 5.825
+        },
+        {
+          "ambang": 150,
+          "jumlah_tepi": 11568,
+          "kepadatan_persen": 2.713
+        },
+        {
+          "ambang": 200,
+          "jumlah_tepi": 5910,
+          "kepadatan_persen": 1.386
+        },
+        {
+          "ambang": 250,
+          "jumlah_tepi": 2232,
+          "kepadatan_persen": 0.523
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+Metrik,Burj Khalifa,Jalan Route 66
+Rerata intensitas,109.04,134.74
+Simpangan baku intensitas,24.95,59.29
+Varians Laplacian,1328.2,778.6
+Rerata respons titik |R|,33.71,37.82
+Maksimum respons titik |R|,1105.0,828.0
+Ambang titik (persentil 99.5),512.0,247.0
+Jumlah titik,552,2148
+Kepadatan titik (%),0.504,0.504
+Rerata magnitudo |G|,27.07,32.01
+Maksimum magnitudo |G|,583.3,433.0
+Jumlah piksel tepi,4202,5910
+Kepadatan tepi (%),3.837,1.386
+Rasio energi |Gx| : |Gy|,1.53,0.81
